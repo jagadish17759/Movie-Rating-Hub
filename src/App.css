@@ -1,0 +1,59 @@
+.navbar-custom {
+  background-color: #343a40;
+}
+
+.carousel-custom {
+  margin-top: 20px;
+}
+
+.carousel-custom img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.movie-card {
+  width: 18rem;
+  margin: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
+
+.movie-details {
+  margin: 20px;
+  text-align: center;
+}
+
+.movie-backdrop {
+  height: 200px;
+  width: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.trailer-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.trailer-button:hover {
+  background-color: #0056b3;
+}
